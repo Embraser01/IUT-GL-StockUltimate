@@ -7,7 +7,6 @@ package stockultimate.panels;
 
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.Graphics;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import javax.swing.JButton;
@@ -36,6 +35,8 @@ public class Menu extends JPanel{
 
     public Menu() {
         
+        
+        this.setBackground(Color.white);
         //bordure = new Rectangle(this.getX()+this.getMaximumSize().width,this.getY(),5,this.getMaximumSize().height,Color.BLACK);
         textmenu = new JLabel("MENU");
         

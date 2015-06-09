@@ -62,6 +62,7 @@ public class Interface extends JFrame implements ActionListener {
         
         mainPane.setLayout(new GridBagLayout());
         mainPane.setMaximumSize(new Dimension(800,500));
+        mainPane.setBackground(Color.white);
         
         menu = new Menu();
         
